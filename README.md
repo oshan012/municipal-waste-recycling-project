@@ -4,7 +4,7 @@ An end-to-end data analysis project exploring municipal waste and recycling tren
 
 ## Project Overview
 
-This project combines database design, SQL, data analysis, and machine learning to answer a simple question: *how has global recycling efficiency changed over time, and which countries lead the way?*
+This project combines database design, SQL, data analysis, and machine learning to answer a simple question: how has global recycling efficiency changed over time, and which countries lead the way?
 
 **Key findings:**
 - **Korea** has the highest municipal recycling rate globally, at nearly **60%**
@@ -46,7 +46,7 @@ See [`diagrams/ER_Diagram.drawio`](diagrams/ER_Diagram.drawio) for the full enti
 └── Project_Summary.pdf                      # One-page project summary
 ```
 
-> **Note:** Raw CSV source files (from Our World in Data / Eurostat) are not included in this repo. Add them to the `data/` folder to fully reproduce the notebooks.
+
 
 ## Data Sources
 
@@ -64,4 +64,4 @@ Through this project I learned how to:
 - Visualize data effectively using matplotlib and seaborn
 
 ---
-*Part of my studies in Sustainable Resources Engineering and Management at Hochschule Magdeburg-Stendal.*
+Part of my studies in Sustainable Resources Engineering and Management at Hochschule Magdeburg-Stendal.
