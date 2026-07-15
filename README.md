@@ -32,7 +32,7 @@ The project uses a relational database with the following structure:
 | `waste_production` | Waste generated per capita, by country and year |
 | `recycling_rates` | Recycling rate (%), by country and year |
 
-See [`diagrams/ER_Diagram.drawio`](diagrams/ER_Diagram.drawio) for the full entity-relationship diagram (open with [draw.io](https://app.diagrams.net/)).
+See [`diagrams/ER_Diagram.drawio`](diagrams/ER_Diagram.drawio) for the full entity-relationship diagram.
 
 ## Repository Structure
 
