@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="azrHNA9YSWe6x2TOoRZu" name="Page-1">
+    <mxGraphModel dx="1198" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="countries" vertex="1">
+          <mxGeometry height="190" width="270" x="50" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-13" parent="wVMti_tWT4FtGv8s5uUF-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ country_id: INT NOT NULL&amp;nbsp; PK&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ country_ name: VARCHAR(100) NOT NULL&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ region: VARCHAR(50) NOT NULL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ income_id: INT NOT NULL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-14" parent="wVMti_tWT4FtGv8s5uUF-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="60" width="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="income_groups" vertex="1">
+          <mxGeometry height="180" width="290" x="430" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-17" parent="wVMti_tWT4FtGv8s5uUF-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ income_id: INT NOT NULL PK&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ income_level: VARCHAR(20)&amp;nbsp; NOT NULL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="290" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-18" parent="wVMti_tWT4FtGv8s5uUF-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="50" width="290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-38" edge="1" parent="1" source="wVMti_tWT4FtGv8s5uUF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wVMti_tWT4FtGv8s5uUF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-45" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.7882" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-46" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.8196" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="waste production" vertex="1">
+          <mxGeometry height="230" width="260" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-21" parent="wVMti_tWT4FtGv8s5uUF-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ waste_id: INT NOT NULL&amp;nbsp; PK&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ country_id: INT NOT NULL&amp;nbsp; FK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ production_year: YEAR NOT NULL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ trash_per_capita: FLOAT NULL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-22" parent="wVMti_tWT4FtGv8s5uUF-20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="50" width="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-40" edge="1" parent="1" source="wVMti_tWT4FtGv8s5uUF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-50" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.8747" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-51" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.9081" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-24" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="recycling rates" vertex="1">
+          <mxGeometry height="240" width="255" x="465" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-25" parent="wVMti_tWT4FtGv8s5uUF-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ recycling_id: INT NOT NULL&amp;nbsp; PK&lt;div&gt;&lt;br&gt;&lt;div&gt;+ country_id: INT NOT NULL FK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ recycling_year: YEAR NOT NULL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ recycling_rate: FLOAT NULL&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="255" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-26" parent="wVMti_tWT4FtGv8s5uUF-24" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="60" width="255" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-30" edge="1" parent="1" source="wVMti_tWT4FtGv8s5uUF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-41" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="I1..*" vertex="1">
+          <mxGeometry relative="1" x="-0.4821" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-43" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.5179" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-33" edge="1" parent="1" source="wVMti_tWT4FtGv8s5uUF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;" target="wVMti_tWT4FtGv8s5uUF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-47" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.854" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVMti_tWT4FtGv8s5uUF-49" connectable="0" parent="wVMti_tWT4FtGv8s5uUF-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.7747" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
