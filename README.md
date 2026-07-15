@@ -1,18 +1,18 @@
-# 🌍 Municipal Waste and Recycling Efficiency
+#  Municipal Waste and Recycling Efficiency
 
 An end-to-end data analysis project exploring municipal waste and recycling trends across countries, using real-world datasets from **Our World in Data** and **Eurostat**.
 
-## 📌 Project Overview
+## Project Overview
 
 This project combines database design, SQL, data analysis, and machine learning to answer a simple question: *how has global recycling efficiency changed over time, and which countries lead the way?*
 
 **Key findings:**
-- 🇰🇷 **Korea** has the highest municipal recycling rate globally, at nearly **60%**
-- 🇩🇪 **Germany** ranks second, at nearly **47%**
-- 📈 Global recycling rates have been **steadily increasing since 1990**
-- 🔮 A linear regression model (97% accuracy) predicts the global recycling rate will reach **~33.78% by 2028**
+- **Korea** has the highest municipal recycling rate globally, at nearly **60%**
+- **Germany** ranks second, at nearly **47%**
+- Global recycling rates have been **steadily increasing since 1990**
+- A linear regression model (97% accuracy) predicts the global recycling rate will reach **~33.78% by 2028**
 
-## 🛠️ Tools & Skills Used
+## Tools & Skills Used
 
 - **Database Design:** Designed a normalized relational schema (ER diagram) with 4 linked entities
 - **SQLite:** Built and queried a relational database
@@ -21,7 +21,7 @@ This project combines database design, SQL, data analysis, and machine learning 
 - **scikit-learn:** Trained a linear regression model to forecast recycling trends
 - **Matplotlib / Seaborn:** Visualized trends and model predictions
 
-## 🗂️ Database Schema
+## Database Schema
 
 The project uses a relational database with the following structure:
 
@@ -34,7 +34,7 @@ The project uses a relational database with the following structure:
 
 See [`diagrams/ER_Diagram.drawio`](diagrams/ER_Diagram.drawio) for the full entity-relationship diagram (open with [draw.io](https://app.diagrams.net/)).
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── notebooks/
@@ -48,13 +48,13 @@ See [`diagrams/ER_Diagram.drawio`](diagrams/ER_Diagram.drawio) for the full enti
 
 > **Note:** Raw CSV source files (from Our World in Data / Eurostat) are not included in this repo. Add them to the `data/` folder to fully reproduce the notebooks.
 
-## 📊 Data Sources
+## Data Sources
 
 - [Our World in Data — Municipal Waste & Recycling](https://ourworldindata.org/)
 - [Eurostat](https://ec.europa.eu/eurostat)
 - World Bank Income Group Classifications
 
-## 🚀 What I Learned
+## What I Learned
 
 Through this project I learned how to:
 - Design and normalize a relational database schema
